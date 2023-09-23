@@ -1,0 +1,48 @@
+.card{
+    padding: 0.5rem;
+    height: 50%;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card1{
+    width: 33%;
+}
+.card2{
+    width: 33%;
+}
+.card3{
+    width: 33%;
+}
+.card4{
+    width: 33%;
+}
+.card5{
+    width: 33%;
+}
+.card6{
+    width: 33%;
+    order: 1;
+}
+
+.card-text{
+    padding: 1rem;
+    background-color: #a6a6a6;
+}
+
+.card-text h3{
+    font-size: 1.9rem;
+    font-weight: 200;
+}
+
+.card-text p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: .5rem;
+    line-height: 1.8rem;
+    letter-spacing: .1rem;
+
+}

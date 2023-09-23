@@ -1,0 +1,26 @@
+/* Barra de navegación*/
+.main-nav{
+    width: 100%;
+    background-color: #222;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.main-nav li{
+    padding: 2rem 2rem;
+}
+
+.main-nav li:hover{
+    background-color: rgb(0, 88, 88);
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #c6c6c6;
+}

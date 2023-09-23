@@ -1,0 +1,73 @@
+@import url(cards.css);
+@import url(nav.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #c6c6c6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Título */
+.main-title{
+    padding: 2rem;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+
+/* Sección principal*/
+.main-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    min-width: 360px;
+    margin: 1rem auto;
+}
+
+/*Footer*/
+footer{
+    margin-top: 2rem;
+    background-color: #222;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer p{
+    color: #c6c6c6;
+}
+
+
+
+/*Media 800px*/
+
+@media (max-width: 800px){
+
+    .card{
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .card3{
+        width: 100%;
+    }
+    .card6{
+        width: 100%;
+    }
+}
+/*Media 660px*/
+
+@media (max-width: 660px){
+
+    .card{
+        width: 100%;
+        padding: 1rem;
+    }
+}
